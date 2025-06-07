@@ -1,0 +1,151 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 8px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.head-sec{
+    text-align: center;
+}
+.head-sec img{
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    margin-bottom: 0px;
+}
+.head-sec p{
+    margin-top: 5px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.head-sec p:last-child{
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.gajala{
+    width: 380px;
+    height: 350px;
+    margin: 0px auto;
+    border: 2px solid #e5e5e5;
+    margin-top: 20px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,1);
+    background-color: #e5e5e5;
+    position: relative;
+}
+.dpimg{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    background-image: url(./images/dppic1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.input-mail,.input-pass,.input-but,.checks{
+    position: absolute;
+    top:150px;
+    left: 40px;
+    width: 290px;
+    height: 30px;
+}
+.input-pass{
+    top: 186px;
+}
+.input-but{
+    width: 298px;
+    height: 35px;
+    top: 230px;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    background-color: #4361ee;
+    font-size: 15px;
+}
+.checks{
+    top: 280px;
+}
+.checks label{
+    font-size: small;
+}
+.form1 P{
+    position: absolute;
+    font-size: small;
+    bottom: 40px;
+    left: 270px;
+    color: #4361ee;
+    text-decoration: none;
+}
+.account a{
+    text-align: center;
+    text-decoration: none;
+    color: #4361ee;
+    font-size: 18px;
+
+}
+
+.foot-sec{
+    width: 380px;
+    height: 90px;
+    margin: 0px auto;
+    position: relative;
+    top: 20px;
+}
+.foot-sec p{
+    text-align: center;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    background-color: green;
+    background-image: url(./images/blackg.ico);
+    border-radius: 10%;
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url(./images/mail.ico);
+    background-color: #fff;
+    left: 100px;
+    border-radius: 30%;
+}
+.img3{
+    background-image: url(./images/drive.ico);
+    left: 140px;
+    background-color: #fff;
+}
+.img4{
+    background-image: url(./images/utube.ico);
+    left: 180px;
+    background-color: #fff;
+}
+.img5{
+    background-image: url(./images/maps.ico);
+    left: 220px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.img6{
+    background-image: url(./images/playstore.ico);
+    left: 250px;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    background-color: #fff;
+}
+.img7{
+    background-image: url(./images/redg1.jpg);
+    left: 290px;
+    border-radius: 2px;
+    background-color: #fff;
+}
